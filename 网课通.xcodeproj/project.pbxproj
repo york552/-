@@ -3,19 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54253E2F027A2E74E3EDF0F0 /* Pods____Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72378B216A7837FF01CED914 /* Pods____Tests.framework */; };
 		CF6A4B4525F9EB32001D9B53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6A4B4425F9EB32001D9B53 /* AppDelegate.m */; };
-		CF6A4B4825F9EB32001D9B53 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6A4B4725F9EB32001D9B53 /* SceneDelegate.m */; };
 		CF6A4B4B25F9EB32001D9B53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6A4B4A25F9EB32001D9B53 /* ViewController.m */; };
-		CF6A4B4E25F9EB32001D9B53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6A4B4C25F9EB32001D9B53 /* Main.storyboard */; };
 		CF6A4B5025F9EB36001D9B53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF6A4B4F25F9EB36001D9B53 /* Assets.xcassets */; };
 		CF6A4B5325F9EB36001D9B53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6A4B5125F9EB36001D9B53 /* LaunchScreen.storyboard */; };
 		CF6A4B5625F9EB36001D9B53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6A4B5525F9EB36001D9B53 /* main.m */; };
 		CF6A4B6025F9EB37001D9B53 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6A4B5F25F9EB37001D9B53 /* ___Tests.m */; };
 		CF6A4B6B25F9EB37001D9B53 /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6A4B6A25F9EB37001D9B53 /* ___UITests.m */; };
+		CF6A4B9725F9F7DF001D9B53 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6A4B9625F9F7DF001D9B53 /* MainTabBarController.m */; };
+		CF6A4BA325F9FF87001D9B53 /* ClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6A4BA225F9FF87001D9B53 /* ClassViewController.m */; };
+		CF6A4C1125FA13F8001D9B53 /* Agorafdkaac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6A4C0625FA13CA001D9B53 /* Agorafdkaac.framework */; };
+		CF6A4C1625FA13FA001D9B53 /* Agoraffmpeg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6A4C0825FA13CA001D9B53 /* Agoraffmpeg.framework */; };
+		CF6A4C1825FA13FC001D9B53 /* AgoraRtcKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6A4C0A25FA13CA001D9B53 /* AgoraRtcKit.framework */; };
+		CF6A4C1A25FA13FE001D9B53 /* AgoraSoundTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6A4C0C25FA13CA001D9B53 /* AgoraSoundTouch.framework */; };
+		E83E26822BDF7A2C47D4B68A /* Pods________UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B79BAFFDBF028AFF5F49D4 /* Pods________UITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +41,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		CF6A4C1325FA13F8001D9B53 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		096863D7129CC7FF03747238 /* Pods-网课通-网课通UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-网课通-网课通UITests.debug.xcconfig"; path = "Target Support Files/Pods-网课通-网课通UITests/Pods-网课通-网课通UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E4071133756C3F3AEB67CCA /* Pods____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72378B216A7837FF01CED914 /* Pods____Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods____Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7413EF19F3B2C665EA3E4346 /* Pods-网课通.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-网课通.release.xcconfig"; path = "Target Support Files/Pods-网课通/Pods-网课通.release.xcconfig"; sourceTree = "<group>"; };
+		A7D91883EB8CE04404365252 /* Pods-网课通Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-网课通Tests.debug.xcconfig"; path = "Target Support Files/Pods-网课通Tests/Pods-网课通Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABB2B7C0CF6105AF457BEF84 /* Pods-网课通-网课通UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-网课通-网课通UITests.release.xcconfig"; path = "Target Support Files/Pods-网课通-网课通UITests/Pods-网课通-网课通UITests.release.xcconfig"; sourceTree = "<group>"; };
 		CF6A4B4025F9EB31001D9B53 /* 网课通.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网课通.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF6A4B4325F9EB32001D9B53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CF6A4B4425F9EB32001D9B53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CF6A4B4625F9EB32001D9B53 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		CF6A4B4725F9EB32001D9B53 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		CF6A4B4925F9EB32001D9B53 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CF6A4B4A25F9EB32001D9B53 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CF6A4B4D25F9EB32001D9B53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF6A4B4F25F9EB36001D9B53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF6A4B5225F9EB36001D9B53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF6A4B5425F9EB36001D9B53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +76,17 @@
 		CF6A4B6625F9EB37001D9B53 /* 网课通UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "网课通UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF6A4B6A25F9EB37001D9B53 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		CF6A4B6C25F9EB37001D9B53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF6A4B9525F9F7DF001D9B53 /* MainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		CF6A4B9625F9F7DF001D9B53 /* MainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		CF6A4BA125F9FF87001D9B53 /* ClassViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassViewController.h; sourceTree = "<group>"; };
+		CF6A4BA225F9FF87001D9B53 /* ClassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassViewController.m; sourceTree = "<group>"; };
+		CF6A4C0625FA13CA001D9B53 /* Agorafdkaac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Agorafdkaac.framework; path = Pods/AgoraRtcEngine_iOS/Agorafdkaac.framework; sourceTree = "<group>"; };
+		CF6A4C0825FA13CA001D9B53 /* Agoraffmpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Agoraffmpeg.framework; path = Pods/AgoraRtcEngine_iOS/Agoraffmpeg.framework; sourceTree = "<group>"; };
+		CF6A4C0A25FA13CA001D9B53 /* AgoraRtcKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraRtcKit.framework; path = Pods/AgoraRtcEngine_iOS/AgoraRtcKit.framework; sourceTree = "<group>"; };
+		CF6A4C0C25FA13CA001D9B53 /* AgoraSoundTouch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraSoundTouch.framework; path = Pods/AgoraRtcEngine_iOS/AgoraSoundTouch.framework; sourceTree = "<group>"; };
+		D4C071E4CA2685F4AD71022D /* Pods-网课通Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-网课通Tests.release.xcconfig"; path = "Target Support Files/Pods-网课通Tests/Pods-网课通Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E1794B4DD67A4E7BDAF5AF1C /* Pods-网课通.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-网课通.debug.xcconfig"; path = "Target Support Files/Pods-网课通/Pods-网课通.debug.xcconfig"; sourceTree = "<group>"; };
+		F5B79BAFFDBF028AFF5F49D4 /* Pods________UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods________UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +94,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF6A4C1825FA13FC001D9B53 /* AgoraRtcKit.framework in Frameworks */,
+				CF6A4C1A25FA13FE001D9B53 /* AgoraSoundTouch.framework in Frameworks */,
+				CF6A4C1625FA13FA001D9B53 /* Agoraffmpeg.framework in Frameworks */,
+				CF6A4C1125FA13F8001D9B53 /* Agorafdkaac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54253E2F027A2E74E3EDF0F0 /* Pods____Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +113,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E83E26822BDF7A2C47D4B68A /* Pods________UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83C85CD3D7285CF412E33F1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E4071133756C3F3AEB67CCA /* Pods____.framework */,
+				CF6A4C0625FA13CA001D9B53 /* Agorafdkaac.framework */,
+				CF6A4C0825FA13CA001D9B53 /* Agoraffmpeg.framework */,
+				CF6A4C0A25FA13CA001D9B53 /* AgoraRtcKit.framework */,
+				CF6A4C0C25FA13CA001D9B53 /* AgoraSoundTouch.framework */,
+				F5B79BAFFDBF028AFF5F49D4 /* Pods________UITests.framework */,
+				72378B216A7837FF01CED914 /* Pods____Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8812707D1F7FCA15E0BE558D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1794B4DD67A4E7BDAF5AF1C /* Pods-网课通.debug.xcconfig */,
+				7413EF19F3B2C665EA3E4346 /* Pods-网课通.release.xcconfig */,
+				096863D7129CC7FF03747238 /* Pods-网课通-网课通UITests.debug.xcconfig */,
+				ABB2B7C0CF6105AF457BEF84 /* Pods-网课通-网课通UITests.release.xcconfig */,
+				A7D91883EB8CE04404365252 /* Pods-网课通Tests.debug.xcconfig */,
+				D4C071E4CA2685F4AD71022D /* Pods-网课通Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CF6A4B3725F9EB31001D9B53 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +154,8 @@
 				CF6A4B5E25F9EB37001D9B53 /* 网课通Tests */,
 				CF6A4B6925F9EB37001D9B53 /* 网课通UITests */,
 				CF6A4B4125F9EB31001D9B53 /* Products */,
+				8812707D1F7FCA15E0BE558D /* Pods */,
+				83C85CD3D7285CF412E33F1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,15 +174,16 @@
 			children = (
 				CF6A4B4325F9EB32001D9B53 /* AppDelegate.h */,
 				CF6A4B4425F9EB32001D9B53 /* AppDelegate.m */,
-				CF6A4B4625F9EB32001D9B53 /* SceneDelegate.h */,
-				CF6A4B4725F9EB32001D9B53 /* SceneDelegate.m */,
+				CF6A4BA125F9FF87001D9B53 /* ClassViewController.h */,
+				CF6A4BA225F9FF87001D9B53 /* ClassViewController.m */,
 				CF6A4B4925F9EB32001D9B53 /* ViewController.h */,
 				CF6A4B4A25F9EB32001D9B53 /* ViewController.m */,
-				CF6A4B4C25F9EB32001D9B53 /* Main.storyboard */,
 				CF6A4B4F25F9EB36001D9B53 /* Assets.xcassets */,
 				CF6A4B5125F9EB36001D9B53 /* LaunchScreen.storyboard */,
 				CF6A4B5425F9EB36001D9B53 /* Info.plist */,
 				CF6A4B5525F9EB36001D9B53 /* main.m */,
+				CF6A4B9525F9F7DF001D9B53 /* MainTabBarController.h */,
+				CF6A4B9625F9F7DF001D9B53 /* MainTabBarController.m */,
 			);
 			path = "网课通";
 			sourceTree = "<group>";
@@ -144,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF6A4B6F25F9EB37001D9B53 /* Build configuration list for PBXNativeTarget "网课通" */;
 			buildPhases = (
+				C109BCB6F378C4363E900901 /* [CP] Check Pods Manifest.lock */,
 				CF6A4B3C25F9EB31001D9B53 /* Sources */,
 				CF6A4B3D25F9EB31001D9B53 /* Frameworks */,
 				CF6A4B3E25F9EB31001D9B53 /* Resources */,
+				C27784328A047C063F9EEE43 /* [CP] Embed Pods Frameworks */,
+				CF6A4C1325FA13F8001D9B53 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +233,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF6A4B7225F9EB37001D9B53 /* Build configuration list for PBXNativeTarget "网课通Tests" */;
 			buildPhases = (
+				51DB62E8043A5EEB79592316 /* [CP] Check Pods Manifest.lock */,
 				CF6A4B5725F9EB37001D9B53 /* Sources */,
 				CF6A4B5825F9EB37001D9B53 /* Frameworks */,
 				CF6A4B5925F9EB37001D9B53 /* Resources */,
@@ -179,9 +252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF6A4B7525F9EB37001D9B53 /* Build configuration list for PBXNativeTarget "网课通UITests" */;
 			buildPhases = (
+				780F6FEB8EE4948783DA8855 /* [CP] Check Pods Manifest.lock */,
 				CF6A4B6225F9EB37001D9B53 /* Sources */,
 				CF6A4B6325F9EB37001D9B53 /* Frameworks */,
 				CF6A4B6425F9EB37001D9B53 /* Resources */,
+				B62DDBA189404CE0054C8E9B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,7 +316,6 @@
 			files = (
 				CF6A4B5325F9EB36001D9B53 /* LaunchScreen.storyboard in Resources */,
 				CF6A4B5025F9EB36001D9B53 /* Assets.xcassets in Resources */,
-				CF6A4B4E25F9EB32001D9B53 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,15 +335,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		51DB62E8043A5EEB79592316 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-网课通Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		780F6FEB8EE4948783DA8855 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-网课通-网课通UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B62DDBA189404CE0054C8E9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-网课通-网课通UITests/Pods-网课通-网课通UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-网课通-网课通UITests/Pods-网课通-网课通UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-网课通-网课通UITests/Pods-网课通-网课通UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C109BCB6F378C4363E900901 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-网课通-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C27784328A047C063F9EEE43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-网课通/Pods-网课通-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-网课通/Pods-网课通-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-网课通/Pods-网课通-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CF6A4B3C25F9EB31001D9B53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CF6A4B4B25F9EB32001D9B53 /* ViewController.m in Sources */,
+				CF6A4BA325F9FF87001D9B53 /* ClassViewController.m in Sources */,
+				CF6A4B9725F9F7DF001D9B53 /* MainTabBarController.m in Sources */,
 				CF6A4B4525F9EB32001D9B53 /* AppDelegate.m in Sources */,
 				CF6A4B5625F9EB36001D9B53 /* main.m in Sources */,
-				CF6A4B4825F9EB32001D9B53 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,14 +483,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CF6A4B4C25F9EB32001D9B53 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CF6A4B4D25F9EB32001D9B53 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CF6A4B5125F9EB36001D9B53 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -438,42 +608,55 @@
 		};
 		CF6A4B7025F9EB37001D9B53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1794B4DD67A4E7BDAF5AF1C /* Pods-网课通.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5S23RF65HV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/AgoraRtcEngine_iOS",
+				);
 				INFOPLIST_FILE = "网课通/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "york.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CF6A4B7125F9EB37001D9B53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7413EF19F3B2C665EA3E4346 /* Pods-网课通.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5S23RF65HV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/AgoraRtcEngine_iOS",
+				);
 				INFOPLIST_FILE = "网课通/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "york.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		CF6A4B7325F9EB37001D9B53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7D91883EB8CE04404365252 /* Pods-网课通Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +677,7 @@
 		};
 		CF6A4B7425F9EB37001D9B53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4C071E4CA2685F4AD71022D /* Pods-网课通Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -514,6 +698,7 @@
 		};
 		CF6A4B7625F9EB37001D9B53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 096863D7129CC7FF03747238 /* Pods-网课通-网课通UITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5S23RF65HV;
@@ -532,6 +717,7 @@
 		};
 		CF6A4B7725F9EB37001D9B53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABB2B7C0CF6105AF457BEF84 /* Pods-网课通-网课通UITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5S23RF65HV;

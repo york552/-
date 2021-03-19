@@ -1,0 +1,20 @@
+PODS:
+  - AgoraRtcEngine_iOS (3.2.1)
+  - LxTabBarController (1.0.0)
+
+DEPENDENCIES:
+  - AgoraRtcEngine_iOS
+  - LxTabBarController (~> 1.0.0)
+
+SPEC REPOS:
+  trunk:
+    - AgoraRtcEngine_iOS
+    - LxTabBarController
+
+SPEC CHECKSUMS:
+  AgoraRtcEngine_iOS: bf8ee53108d31dd9e3b7e448701b9098162c42c7
+  LxTabBarController: 47773fa57189cb83835c119cc7a82c112565f33b
+
+PODFILE CHECKSUM: 2501c2b24be9ba0f34dcc78f57f1ddabd0a52f02
+
+COCOAPODS: 1.8.4
