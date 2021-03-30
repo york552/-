@@ -1,11 +1,12 @@
 //
 //  ClassViewController.m
-//  网课通
+//  网课通教师版
 //
 //  Created by 约克 on 2021/3/11.
 //
 
 #import "ClassViewController.h"
+#import "HttpManager.h"
 
 @interface ClassViewController ()
 // 定义 localView 变量
@@ -35,6 +36,10 @@
     self.localView.frame = CGRectMake(self.view.bounds.size.width - 90, 0, 90, 160);
 }
 
+- (void)viewWillDisappear:(BOOL)animated {
+    [self leaveChannel];
+}
+
 - (void)initViews {
     // 初始化远端视频窗口。只有当远端用户为主播时，才会显示视频画面
     self.remoteView = [[UIView alloc] init];
@@ -45,7 +50,7 @@
 }
 // 初始化AgoraRtcEngineKit 对象
 - (void)initializeAgoraEngine {
-    self.agoraKit = [AgoraRtcEngineKit sharedEngineWithAppId:@"7299681c2f0241299b87edbb6ed63750" delegate:self];
+    self.agoraKit = [AgoraRtcEngineKit sharedEngineWithAppId:APPID delegate:self];
 }
 // 设置频道场景
 - (void)setChannelProfile {
@@ -54,9 +59,9 @@
 // 设置用户角色
 - (void)setClientRole {
     // 设置用户角色为主播
-//    [self.agoraKit setClientRole:AgoraClientRoleBroadcaster];
+    [self.agoraKit setClientRole:AgoraClientRoleBroadcaster];
     // 设置用户角色为观众
-    [self.agoraKit setClientRole:AgoraClientRoleAudience];
+//    [self.agoraKit setClientRole:AgoraClientRoleAudience];
 }
 // 设置本地视图
 - (void)setupLocalVideo {
@@ -71,7 +76,7 @@
 }
 // 加入频道
 - (void)joinChannel {
-    [self.agoraKit joinChannelByToken:@"0067299681c2f0241299b87edbb6ed63750IABnPTwCL4O9GsvrDijOEdS5M1Iece+7Y/WNF7ZPwtOFCjLRTXgAAAAAEAAdwi3RPTJLYAEAAQA4Mktg" channelId:@"Test" info:nil uid:0 joinSuccess:^(NSString * _Nonnull channel, NSUInteger uid, NSInteger elapsed) {
+    [self.agoraKit joinChannelByToken:@"0067299681c2f0241299b87edbb6ed63750IAAFuRgx3Jjp7PXmimQ8O4Krdm+hbFzBy6zeDerOqZ8DglUJZ04AAAAAEABfjXZE+BNUYAEAAQD4E1Rg" channelId:self.classModel.room.roomInfo.roomUuid info:nil uid:0 joinSuccess:^(NSString * _Nonnull channel, NSUInteger uid, NSInteger elapsed) {
         NSLog(@"进入了教室");
     }];
 }

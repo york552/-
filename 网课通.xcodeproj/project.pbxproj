@@ -16,11 +16,17 @@
 		CF6A4B6025F9EB37001D9B53 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6A4B5F25F9EB37001D9B53 /* ___Tests.m */; };
 		CF6A4B6B25F9EB37001D9B53 /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6A4B6A25F9EB37001D9B53 /* ___UITests.m */; };
 		CF6A4B9725F9F7DF001D9B53 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6A4B9625F9F7DF001D9B53 /* MainTabBarController.m */; };
-		CF6A4BA325F9FF87001D9B53 /* ClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6A4BA225F9FF87001D9B53 /* ClassViewController.m */; };
 		CF6A4C1125FA13F8001D9B53 /* Agorafdkaac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6A4C0625FA13CA001D9B53 /* Agorafdkaac.framework */; };
 		CF6A4C1625FA13FA001D9B53 /* Agoraffmpeg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6A4C0825FA13CA001D9B53 /* Agoraffmpeg.framework */; };
 		CF6A4C1825FA13FC001D9B53 /* AgoraRtcKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6A4C0A25FA13CA001D9B53 /* AgoraRtcKit.framework */; };
 		CF6A4C1A25FA13FE001D9B53 /* AgoraSoundTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6A4C0C25FA13CA001D9B53 /* AgoraSoundTouch.framework */; };
+		CF75C76526048EC900CC29CB /* HttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CF75C75F26048EC900CC29CB /* HttpManager.m */; };
+		CF75C76626048EC900CC29CB /* HTTPConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = CF75C76026048EC900CC29CB /* HTTPConfiguration.m */; };
+		CF75C76726048EC900CC29CB /* SchduleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF75C76126048EC900CC29CB /* SchduleModel.m */; };
+		CF75C76826048EC900CC29CB /* YKTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CF75C76426048EC900CC29CB /* YKTool.m */; };
+		CF75C77426048ED800CC29CB /* ClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF75C76E26048ED700CC29CB /* ClassViewController.m */; };
+		CF75C77526048ED800CC29CB /* EntryRoomController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF75C76F26048ED700CC29CB /* EntryRoomController.m */; };
+		CF75C77626048ED800CC29CB /* ClassroomModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF75C77326048ED700CC29CB /* ClassroomModel.m */; };
 		E83E26822BDF7A2C47D4B68A /* Pods________UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B79BAFFDBF028AFF5F49D4 /* Pods________UITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -78,12 +84,25 @@
 		CF6A4B6C25F9EB37001D9B53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF6A4B9525F9F7DF001D9B53 /* MainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
 		CF6A4B9625F9F7DF001D9B53 /* MainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
-		CF6A4BA125F9FF87001D9B53 /* ClassViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassViewController.h; sourceTree = "<group>"; };
-		CF6A4BA225F9FF87001D9B53 /* ClassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassViewController.m; sourceTree = "<group>"; };
 		CF6A4C0625FA13CA001D9B53 /* Agorafdkaac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Agorafdkaac.framework; path = Pods/AgoraRtcEngine_iOS/Agorafdkaac.framework; sourceTree = "<group>"; };
 		CF6A4C0825FA13CA001D9B53 /* Agoraffmpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Agoraffmpeg.framework; path = Pods/AgoraRtcEngine_iOS/Agoraffmpeg.framework; sourceTree = "<group>"; };
 		CF6A4C0A25FA13CA001D9B53 /* AgoraRtcKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraRtcKit.framework; path = Pods/AgoraRtcEngine_iOS/AgoraRtcKit.framework; sourceTree = "<group>"; };
 		CF6A4C0C25FA13CA001D9B53 /* AgoraSoundTouch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraSoundTouch.framework; path = Pods/AgoraRtcEngine_iOS/AgoraSoundTouch.framework; sourceTree = "<group>"; };
+		CF75C75B26048EC900CC29CB /* HttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpManager.h; sourceTree = "<group>"; };
+		CF75C75C26048EC900CC29CB /* SchduleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchduleModel.h; sourceTree = "<group>"; };
+		CF75C75D26048EC900CC29CB /* HTTPConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPConfiguration.h; sourceTree = "<group>"; };
+		CF75C75E26048EC900CC29CB /* URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URL.h; sourceTree = "<group>"; };
+		CF75C75F26048EC900CC29CB /* HttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpManager.m; sourceTree = "<group>"; };
+		CF75C76026048EC900CC29CB /* HTTPConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPConfiguration.m; sourceTree = "<group>"; };
+		CF75C76126048EC900CC29CB /* SchduleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchduleModel.m; sourceTree = "<group>"; };
+		CF75C76326048EC900CC29CB /* YKTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKTool.h; sourceTree = "<group>"; };
+		CF75C76426048EC900CC29CB /* YKTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKTool.m; sourceTree = "<group>"; };
+		CF75C76D26048ED700CC29CB /* EntryRoomController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryRoomController.h; sourceTree = "<group>"; };
+		CF75C76E26048ED700CC29CB /* ClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassViewController.m; sourceTree = "<group>"; };
+		CF75C76F26048ED700CC29CB /* EntryRoomController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryRoomController.m; sourceTree = "<group>"; };
+		CF75C77026048ED700CC29CB /* ClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassViewController.h; sourceTree = "<group>"; };
+		CF75C77226048ED700CC29CB /* ClassroomModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassroomModel.h; sourceTree = "<group>"; };
+		CF75C77326048ED700CC29CB /* ClassroomModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassroomModel.m; sourceTree = "<group>"; };
 		D4C071E4CA2685F4AD71022D /* Pods-网课通Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-网课通Tests.release.xcconfig"; path = "Target Support Files/Pods-网课通Tests/Pods-网课通Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E1794B4DD67A4E7BDAF5AF1C /* Pods-网课通.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-网课通.debug.xcconfig"; path = "Target Support Files/Pods-网课通/Pods-网课通.debug.xcconfig"; sourceTree = "<group>"; };
 		F5B79BAFFDBF028AFF5F49D4 /* Pods________UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods________UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -172,10 +191,11 @@
 		CF6A4B4225F9EB32001D9B53 /* 网课通 */ = {
 			isa = PBXGroup;
 			children = (
+				CF75C75A26048EC900CC29CB /* Service */,
+				CF75C76B26048ED700CC29CB /* Classroom */,
+				CF75C76226048EC900CC29CB /* Tool */,
 				CF6A4B4325F9EB32001D9B53 /* AppDelegate.h */,
 				CF6A4B4425F9EB32001D9B53 /* AppDelegate.m */,
-				CF6A4BA125F9FF87001D9B53 /* ClassViewController.h */,
-				CF6A4BA225F9FF87001D9B53 /* ClassViewController.m */,
 				CF6A4B4925F9EB32001D9B53 /* ViewController.h */,
 				CF6A4B4A25F9EB32001D9B53 /* ViewController.m */,
 				CF6A4B4F25F9EB36001D9B53 /* Assets.xcassets */,
@@ -204,6 +224,58 @@
 				CF6A4B6C25F9EB37001D9B53 /* Info.plist */,
 			);
 			path = "网课通UITests";
+			sourceTree = "<group>";
+		};
+		CF75C75A26048EC900CC29CB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CF75C75B26048EC900CC29CB /* HttpManager.h */,
+				CF75C75C26048EC900CC29CB /* SchduleModel.h */,
+				CF75C75D26048EC900CC29CB /* HTTPConfiguration.h */,
+				CF75C75E26048EC900CC29CB /* URL.h */,
+				CF75C75F26048EC900CC29CB /* HttpManager.m */,
+				CF75C76026048EC900CC29CB /* HTTPConfiguration.m */,
+				CF75C76126048EC900CC29CB /* SchduleModel.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CF75C76226048EC900CC29CB /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				CF75C76326048EC900CC29CB /* YKTool.h */,
+				CF75C76426048EC900CC29CB /* YKTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		CF75C76B26048ED700CC29CB /* Classroom */ = {
+			isa = PBXGroup;
+			children = (
+				CF75C76C26048ED700CC29CB /* Controller */,
+				CF75C77126048ED700CC29CB /* Model */,
+			);
+			path = Classroom;
+			sourceTree = "<group>";
+		};
+		CF75C76C26048ED700CC29CB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CF75C76D26048ED700CC29CB /* EntryRoomController.h */,
+				CF75C76F26048ED700CC29CB /* EntryRoomController.m */,
+				CF75C77026048ED700CC29CB /* ClassViewController.h */,
+				CF75C76E26048ED700CC29CB /* ClassViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CF75C77126048ED700CC29CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF75C77226048ED700CC29CB /* ClassroomModel.h */,
+				CF75C77326048ED700CC29CB /* ClassroomModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -444,10 +516,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF6A4B4B25F9EB32001D9B53 /* ViewController.m in Sources */,
-				CF6A4BA325F9FF87001D9B53 /* ClassViewController.m in Sources */,
+				CF75C77526048ED800CC29CB /* EntryRoomController.m in Sources */,
+				CF75C77426048ED800CC29CB /* ClassViewController.m in Sources */,
+				CF75C76726048EC900CC29CB /* SchduleModel.m in Sources */,
 				CF6A4B9725F9F7DF001D9B53 /* MainTabBarController.m in Sources */,
+				CF75C76526048EC900CC29CB /* HttpManager.m in Sources */,
 				CF6A4B4525F9EB32001D9B53 /* AppDelegate.m in Sources */,
 				CF6A4B5625F9EB36001D9B53 /* main.m in Sources */,
+				CF75C76626048EC900CC29CB /* HTTPConfiguration.m in Sources */,
+				CF75C76826048EC900CC29CB /* YKTool.m in Sources */,
+				CF75C77626048ED800CC29CB /* ClassroomModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -612,6 +690,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5S23RF65HV;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -636,6 +715,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5S23RF65HV;
 				FRAMEWORK_SEARCH_PATHS = (
